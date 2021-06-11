@@ -1,86 +1,223 @@
 <!DOCTYPE html>
-<html>
-  
+<html lang="en">
+
 <head>
-  <title>Base para publicacion de avisos</title>
-  <meta charset="UTF-8">
-  <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style type="text/css">
+    <title>Clarín | Oradores</title>
 
-    body{
-    background-color: #F5F2F2;
-    margin:20px 0px;
-    }
-      
-    h1{font-family: 'Racing Sans One', cursive;
-    color: #333333;
-    text-align: center;
-    font-weight:normal;
-    font-size: 30px;
-    }
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="styles.min.css">
 
-    .cont{
-    display: flex;
-    flex-flow: row;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .ca{
-    padding: 5px;
-    width: 100%;
-    height: 100%;
-    }
-
-
-    @media (max-width: 800px) {
-
-      .cont{
-      flex-flow: column;
-      }
-
-      .ca{
-      padding: 0px;
-      }
-
-    }
-
-  </style>
 
 </head>
 
-<body data-adspath="test-Mati/ale">
+<body>
 
-  <div class="cont">
+    <!--  Inicio LANDING -->
+    <article class="oradores">
+        <!-- Header -->
+        <header class="header">
+            <!-- Titulo Header -->
+            <div class="header-title">
+                <img src="images/icon-world.svg" alt="Oradores">
+                <h1>EL MUNDO QUE VIENE </h1>
+            </div>
+            <!-- Contenido Header -->
+            <div class="header-content">
+                <div class="header-subtitle">
+                    <h2>CLAVES PARA EL FUTURO</h2>
+                </div>
+                <div class="header-text">
+                    <p><strong>Clarín</strong> presenta un ciclo de <strong>10 mesas de diálogo</strong> para analizar cómo será el mundo que viene. Los cambios que habrá en <em>el trabajo, la economía y la sociedad</em>, debatidos por los
+                        máximos referentes de cada sector,
+                        representantes
+                        de las mayores empresas, especialistas y emprendedores.</p>
+                    <p>Un diálogo profundo para entender cómo las tendencias que hoy empiezan a definirse modificarán nuestro futuro.</p>
+                    <p>Un debate sobre los cambios en cómo se vive y cómo se trabaja, en la salud, en el transporte, en cómo se maneja el dinero. Y también sobre el rol de las mujeres y de las nuevas generaciones, así como los desafíos
+                        que
+                        enfrentan el campo y la energía.</p>
+                    <p>Un ciclo que recorrerá el año, imprescindible para entender los desafíos del mañana.</p>
+                </div>
+                <img src="images/logo-clarin.svg" alt="Clarín" width="324" class="header-clarin">
+            </div>
+            </div>
+        </header>
 
-      <div class="ca" style="margin-top: 15px">
-        <div><h1>Matte_300x300_025</h1></div>
-        <div id="caja5" class="ad-slot" data-adtype="cajagrande"></div>
-      </div>
+        <!-- Evento -->
+        <main>
 
-      <div class="ca" style="margin-top: 15px">
-        <div><h1>Matte_300x400_035</h1></div>
-        <div id="caja8" class="ad-slot" data-adtype="cajagrande"></div>
-      </div>
+            <!-- Evento 02 -->
+            <section class="evento">
+                <!-- Info de la Transmisión -->
+                <div class="--row">
+                    <div class="evento-transmision --col50">
+                        <div class="evento-numero">02</div>
+                        <div class="evento-social">
+                            <p>Mirá la transmisión en <a href="https://clarin.com" target="_blank">Clarin.com</a>
+                                <em>y en nuestras redes sociales
+                                    <span class="redessociales">
+                                        <a href="https://www.youtube.com/user/clarinwebtv" target="_blank"><img src="images/social-youtube.svg" alt="Youtube"></a>
+                                        <a href="https://www.facebook.com/clarincom" target="_blank"><img src="images/social-facebook.svg" alt="Facebook"></a>
+                                        <a href="https://twitter.com/clarincom" target="_blank"><img src="images/social-twitter.svg" alt="Twitter"></a>
+                                    </span></em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="ca" style="margin-top: 15px">
-        <div><h1>Matte_300x500_031</h1></div>
-        <div id="caja2" class="ad-slot" data-adtype="cajagrande"></div>
-      </div>
+                <!-- Info del Evento -->
+                <div class="--row --align-r">
+                    <div class="evento-nombre --col50">
+                        <h3>PAGAR SIN TOCAR EL DINERO</h3>
+                    </div>
+                </div>
+                <div class="--row">
+                    <div class="evento-fecha --col50 --align-r">
+                        <div class="evento-dia">22/06</div>
+                        <div class="evento-hora">11AM</div>
+                    </div>
+                </div>
+                <div class="--row --align-r">
+                    <div class="evento-descripcion --col50">
+                        <p>Los pagos con sistemas digitales crecieron en los tiempos de pandemia y cuarentena por las compras online, los cuidados sanitarios, la mayor inmersión digital de la población. Pero sólo fue la confirmación de una
+                            tendencia que ya crecía antes del Covid.</p>
+                    </div>
+                </div>
 
-  </div>
+            </section>
 
-  <!--Config-->
-  <script>
-    var s = document.createElement('script');
-    s.async = true;
-    s.src = "config.js?"+Math.random();
-    document.head.appendChild(s);
-  </script>
-  <!--Fin Config-->
+            <!-- Evento 01 -->
+            <section class="evento">
+
+                <!-- Info de la Transmisión -->
+                <div class="--row">
+                    <div class="evento-transmision --col50">
+                        <div class="evento-numero">01</div>
+                        <div class="evento-social">
+                            <p>Mirá la transmisión en <a href="https://clarin.com" target="_blank">Clarin.com</a>
+                                <em>y en nuestras redes sociales
+                                    <span class="redessociales">
+                                        <a href="https://www.youtube.com/user/clarinwebtv" target="_blank"><img src="images/social-youtube.svg" alt="Youtube"></a>
+                                        <a href="https://www.facebook.com/clarincom" target="_blank"><img src="images/social-facebook.svg" alt="Facebook"></a>
+                                        <a href="https://twitter.com/clarincom" target="_blank"><img src="images/social-twitter.svg" alt="Twitter"></a>
+                                    </span></em>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Info del Evento -->
+                <div class="--row --align-r">
+                    <div class="evento-nombre --col50">
+                        <h3>CAMBIOS EN EL TRABAJO</h3>
+                    </div>
+                </div>
+
+
+                <div class="--row">
+                    <div class="evento-fecha --col50 --align-r">
+                        <div class="cont-boton-play">
+                            <a href="https://youtu.be/oF93029FlFc" target="_blank"><span class="boton-play"></span></a> MIRALO ACA
+                        </div>
+                    </div>
+                </div>
+
+                <div class="--row --align-r">
+                    <div class="evento-descripcion --col50">
+                        <p>La manera de trabajar cambia. Hay más empleados online y oficinas que se vacían, nuevas normas y hábitos. Y también un contexto distinto aún para los trabajos más tradicionales. Cómo impactarán estas tendencias en
+                            el
+                            futuro.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Lista de oradores -->
+                <div class="--row">
+                    <div class="evento-oradores">
+                        <div class="orador">
+                            <img src="images/3105/roberto-nobile.jpg" alt="Roberto Nobile">
+                            <h4>Roberto Nobile</h4>
+                            <p>CEO de Telecom Argentina.</p>
+                        </div>
+                        <div class="orador">
+                            <img src="images/3105/brenda-puig.jpg" alt="Brenda Puig">
+                            <h4>Brenda Puig</h4>
+                            <p>Líder de la Red de Abogados de Empresa de IDEA</p>
+                        </div>
+                        <div class="orador">
+                            <img src="images/3105/sergio-kaufman.jpg" alt="Sergio Kaufman">
+                            <h4>Sergio Kaufman</h4>
+                            <p>Presidente de <strong>Accenture Argentina</strong> y de la región de Sudamérica Hispana.</p>
+                        </div>
+                        <div class="orador">
+                            <img src="images/3105/santiago-bilinkis.jpg" alt="Santiago Bilinkis">
+                            <h4>Santiago Bilinkis</h4>
+                            <p>Emprendedor y tecnólogo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Video - Cambios en el Trabajo -->
+                <div class="containerVideo">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/oF93029FlFc"></iframe>
+                </div> 
+
+            </section>
+
+            <section class="contenido-editorial">
+                <h3>Contenido editorial: </h3>
+
+                <div class="--row">
+                    <div class="--col40">
+                        <a href="https://www.clarin.com/economia/cambios-trabajo-debate-imprescindible-mundo-viene_0_xxu62xUgQ.html" target="_blank">Los cambios en el trabajo, un debate imprescindible sobre el mundo que viene.</a>
+                    </div>
+                    <div class="--col40">
+                        <a href="https://www.clarin.com/economia/virtual-presencial-trabajo-mundo-pospandemia_0_CJEf89gIV.html" target="_blank">Virtual y presencial: cómo será el trabajo en el mundo de la pospandemia </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Próximas mesas-->
+        <footer class="proximas">
+            <div class="proximas-meta">
+                <p>Próximas mesas de <strong>diálogo:</strong></p>
+                <div class="redessociales">
+                    <a href="https://www.youtube.com/user/clarinwebtv" target="_blank"><img src="images/social-youtube.svg" alt="Youtube"></a>
+                    <a href="https://www.facebook.com/clarincom" target="_blank"><img src="images/social-facebook.svg" alt="Facebook"></a>
+                    <a href="https://twitter.com/clarincom" target="_blank"><img src="images/social-twitter.svg" alt="Twitter"></a>
+                </div>
+            </div>
+            <!-- Texto destacado -->
+            <div class="proximas-enlaces">MUJERES QUE ATRAVIESAN FRONTERAS / LA CLAVE ES LA SALUD / APUESTA POR LA ENERGÍA / ENTRE EL AUTO Y LA BICICLETA / COMER EN CASA / EL CAMPO, SIEMPRE PRESENTE / VIVIR PUERTAS ADENTRO / EL MUNDO DE LOS
+                MILLENIALS.</div>
+
+            <!-- Logos sponsors -->
+            <div class="sponsors">
+                <div class="sponsors-gold">
+                    <h5>GOLD SPONSOR</h5>
+                    <div class="sponsors-logos">
+                        <a href="https://www.macro.com.ar" class="sponsor--macro" target="_blank"><img src="images/sponsor-gold-macro.svg" alt="Macro"></a>
+                        <a href="https://www.osde.com.ar" target="_blank"><img src="images/sponsor-gold-osde.svg" alt="OSDE"></a>
+                        <a href="https://www.desasa.com.ar" target="_blank"><img src="images/sponsor-gold-desa.svg" alt="DESA"></a>
+                    </div>
+                </div>
+                <div class="sponsors-silver">
+                    <h5>SILVER SPONSOR</h5>
+                    <div class="sponsors-logos">
+                        <a href="https://www.telecom.com.ar" target="_blank"><img src="images/sponsor-silver-telecom.svg" alt="Telecom"></a>
+                        <a href="http://www.afarte.org.ar" target="_blank"><img src="images/sponsor-silver-afarte.svg" alt="Afarte"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </article>
+
+    <!-- Final LANDING -->
 
 </body>
 
